@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    position: center;
+    border: 1px;
+    border-radius: 3px;
+}
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 4em;
+}
+.box1 h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-stretch: expanded;
+    color: hsl(0, 0%, 95%);
+    font-stretch: condensed;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.box1 p{
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 60px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+.box1 button{
+    background-color: hsl(0, 0%, 95%);
+    background-size: cover;
+    border: 1px;
+    border-radius: 10px;
+    color: hsl(31, 77%, 52%);
+    padding: 5px 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.box1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+    color: white;
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 4em;
+}
+.box2 h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-stretch: condensed;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.box2 p{
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 60px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+.box2 button{
+    background-color: hsl(0, 0%, 95%);
+    background-size: cover;
+    border: 1px;
+    border-radius: 10px;
+    color: hsl(184, 100%, 22%);
+    padding: 5px 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.box2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+    color: white;
+}
+
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 4em;
+}
+
+.box3 h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-stretch: condensed;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.box3 p{
+    font-size: 14px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 40px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
+.box3 button{
+    background-color: hsl(0, 0%, 95%);
+    background-size: cover;
+    border: 1px;
+    border-radius: 10px;
+    color: hsl(179, 100%, 13%);
+    padding: 5px 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.box3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+}
